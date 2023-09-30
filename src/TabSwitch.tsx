@@ -7,7 +7,7 @@ const [tab,setTab]=useState("left");
     <div>
       <button onClick={()=>setTab("left")}>Left</button>
       <button onClick={()=>setTab("right")}>right</button>
-      {tab=="left"?<div>Left tab</div>:<div>Right tab</div>}
+      {tab=="left"?<div id="left">Left tab</div>:<div id="right">Right tab</div>}
     </div>
   )
 }
