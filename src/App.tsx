@@ -3,6 +3,7 @@ import styles from './App.module.scss';
 import Parent from './Parent';
 import Greeting from './Greeting';
 import './Child.css';
+import TabSwitch from './TabSwitch';
 // import addTwoNumbers from './addTwoNumbers';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
             <input></input>
             <h1 onClick={() => setCounter((a) => a + 1)}>App changed{counter} {counter}</h1>;
             <Parent />
-            <Parent />
+            <TabSwitch/>
         </>
     );
 }
